@@ -63,3 +63,94 @@ CSS
 
 
 </html>
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+ 
+}
+.logo{
+
+ display: flex;
+ align-items: center;
+
+}
+.menu{
+   
+    display: flex;
+    align-items: center;
+
+}
+nav ul,nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+   
+}
+nav ul {
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+}
+nav .active a,
+nav a:hover {
+   
+   
+background-color: #39aae1;
+   
+   
+color: white;
+}
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/img1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+}
+.colum {
+    flex-direction: column;
+    float: left;
+   
+}
+.banner_headliner {
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.banner_headliner h1{
+    color:#FFFFFF;
+    font-size: 50px;
+    text-shadow: 2px 2px 0px #000000;
+   
+   
+
+}
+.banner_options{
+   
+
+   
+}
